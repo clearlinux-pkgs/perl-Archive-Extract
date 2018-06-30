@@ -4,7 +4,7 @@
 #
 Name     : perl-Archive-Extract
 Version  : 0.80
-Release  : 2
+Release  : 3
 URL      : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Archive-Extract-0.80.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Archive-Extract-0.80.tar.gz
 Summary  : 'Generic archive extracting mechanism'

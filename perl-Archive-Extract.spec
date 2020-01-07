@@ -4,10 +4,10 @@
 #
 Name     : perl-Archive-Extract
 Version  : 0.86
-Release  : 17
+Release  : 18
 URL      : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Archive-Extract-0.86.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Archive-Extract-0.86.tar.gz
-Summary  : Generic archive extracting mechanism
+Summary  : 'Generic archive extracting mechanism'
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 Requires: perl-Archive-Extract-perl = %{version}-%{release}
@@ -21,7 +21,6 @@ Please refer to 'perldoc Archive::Extract' after installation for details.
 Summary: dev components for the perl-Archive-Extract package.
 Group: Development
 Provides: perl-Archive-Extract-devel = %{version}-%{release}
-Requires: perl-Archive-Extract = %{version}-%{release}
 Requires: perl-Archive-Extract = %{version}-%{release}
 
 %description dev
@@ -82,4 +81,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.2/Archive/Extract.pm
+/usr/lib/perl5/vendor_perl/5.30.1/Archive/Extract.pm

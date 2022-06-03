@@ -4,7 +4,7 @@
 #
 Name     : perl-Archive-Extract
 Version  : 0.88
-Release  : 28
+Release  : 29
 URL      : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Archive-Extract-0.88.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Archive-Extract-0.88.tar.gz
 Summary  : 'Generic archive extracting mechanism'
@@ -81,4 +81,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Archive/Extract.pm
+/usr/lib/perl5/*
